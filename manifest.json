@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Amazon Enhancement Suite",
+  "description": "This extension updates the user experience of the amazon.com store front.",
+  "version": "1.0",
+
+  // "browser_action": {
+  //   "default_icon": "icon.png",
+  //   "default_popup": "popup.html",
+  //   "default_title": "Amazon Enhancement Suite"
+  // },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/*"],
+      "css": ["aes.css"],
+      "js": ["aes.js"]
+    }
+  ],
+
+  // "background": {
+  //   "scripts": ["aes.js"]
+  // },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
