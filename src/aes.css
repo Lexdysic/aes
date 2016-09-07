@@ -1,0 +1,10 @@
+#twister ul {
+	font-size: 0;
+}
+
+#twister .imageSwatches li {
+	font-size: 13px;
+	margin-left: 0px;
+	/*margin-left: -4px;
+	padding-left: 0px;*/
+}
